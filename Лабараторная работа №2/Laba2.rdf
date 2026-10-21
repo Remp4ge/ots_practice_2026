@@ -1,0 +1,246 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6/"
+     xml:base="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-6="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#имеет_жанр -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#имеет_жанр">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Фильм"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Жанр"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#работал_с -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#работал_с">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Актер"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Режиссер"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#снимался_в -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#снимался_в">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Актер"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Фильм"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#снял_фильм -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#снял_фильм">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Режиссер"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Фильм"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#год_выпуска -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#год_выпуска">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#название -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#название">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#описание -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#описание">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#полное_имя -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#полное_имя">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Актер -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Актер"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Жанр -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Жанр"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Режиссер -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Режиссер"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Супергеройский_фильм -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Супергеройский_фильм">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Фильм"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Фильм -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Фильм"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Бэтмен_против_Супермена -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Бэтмен_против_Супермена">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Фильм"/>
+        <untitled-ontology-6:год_выпуска rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2016</untitled-ontology-6:год_выпуска>
+        <untitled-ontology-6:название rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">Batman v Superman</untitled-ontology-6:название>
+    </owl:NamedIndividual>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+        <owl:sourceIndividual rdf:resource="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Бэтмен_против_Супермена"/>
+        <owl:assertionProperty rdf:resource="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#имеет_жанр"/>
+        <owl:targetIndividual rdf:resource="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Фантастика"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Генри_Кавилл -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Генри_Кавилл">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Актер"/>
+        <untitled-ontology-6:полное_имя rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">Henry Cavill</untitled-ontology-6:полное_имя>
+    </owl:NamedIndividual>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+        <owl:sourceIndividual rdf:resource="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Генри_Кавилл"/>
+        <owl:assertionProperty rdf:resource="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#снимался_в"/>
+        <owl:targetIndividual rdf:resource="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Человек_из_стали"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Зак_Снайдер -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Зак_Снайдер">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Режиссер"/>
+        <untitled-ontology-6:полное_имя rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">Zack Snyder</untitled-ontology-6:полное_имя>
+    </owl:NamedIndividual>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+        <owl:sourceIndividual rdf:resource="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Зак_Снайдер"/>
+        <owl:assertionProperty rdf:resource="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#снял_фильм"/>
+        <owl:targetIndividual rdf:resource="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Бэтмен_против_Супермена"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+        <owl:sourceIndividual rdf:resource="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Зак_Снайдер"/>
+        <owl:assertionProperty rdf:resource="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#снял_фильм"/>
+        <owl:targetIndividual rdf:resource="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Человек_из_стали"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Фантастика -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Фантастика">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Жанр"/>
+        <untitled-ontology-6:описание rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">Фильмы о супергероях</untitled-ontology-6:описание>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Человек_из_стали -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Человек_из_стали">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Фильм"/>
+        <untitled-ontology-6:год_выпуска rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2013</untitled-ontology-6:год_выпуска>
+        <untitled-ontology-6:название>Man of Steel</untitled-ontology-6:название>
+    </owl:NamedIndividual>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+        <owl:sourceIndividual rdf:resource="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Человек_из_стали"/>
+        <owl:assertionProperty rdf:resource="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#имеет_жанр"/>
+        <owl:targetIndividual rdf:resource="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Фантастика"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Эми_Адамс -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Эми_Адамс">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kleim/ontologies/2026/9/untitled-ontology-6#Актер"/>
+        <untitled-ontology-6:полное_имя rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">Amy Adams</untitled-ontology-6:полное_имя>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
